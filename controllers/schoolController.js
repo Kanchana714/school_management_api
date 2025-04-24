@@ -16,7 +16,7 @@ exports.addSchool = (req, res) => {
     }
   );
 };
-// mysql -h maglev.proxy.rlwy.net -u root -p BwOGDQWlJMJhnBvhXfQrSTDwWHqDvkCL --port 31916 --protocol=TCP railway
+// mysql -h maglev.proxy.rlwy.net -u root -p BkkkkwOGDQWlJMJhnBvhXfQrSTDwWHqDvkCL --port 31916 --protocol=TCP railway
 exports.listSchools = (req, res) => {
     const { latitude, longitude } = req.query;
     if (isNaN(latitude) || isNaN(longitude)) {
