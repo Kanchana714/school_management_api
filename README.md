@@ -2,6 +2,10 @@ School Management API
 --------------------------
 A simple RESTful API built with Node.js, Express.js, and MySQL, designed to manage school records with location-based filtering. This project demonstrates backend API design, database connectivity, and deployment attempts using Render and Railway.
 
+Postman collection link
+-----------------------------------
+https://grey-comet-94316.postman.co/workspace/school_management~c71ff815-0db5-4b16-96de-37f0179eee89/collection/40449288-6b7d9033-1da8-46d1-920c-b915d3e84f02?action=share&creator=40449288
+
 Features
 Add a new school with name, address, latitude, and longitude
 
