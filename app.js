@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const schoolRoutes = require('./routes/schoolRoutes');
 const cors = require('cors');
-const pool = require('./db'); // Import your MySQL pool here
+const pool = require('./config/db'); // Import your MySQL pool here
 
 app.use(cors());
 
