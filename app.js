@@ -2,8 +2,12 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const schoolRoutes = require('./routes/schoolRoutes');
+const cors = require('cors');
+
+app.use(cors());
 
 // Middleware to parse JSON requests
+
 app.use(express.json());
 
 // Root route
