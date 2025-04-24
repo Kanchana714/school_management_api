@@ -22,7 +22,9 @@ exports.listSchools = (req, res) => {
     if (isNaN(latitude) || isNaN(longitude)) {
       return res.status(400).json({ error: 'Invalid coordinates' });
     }
-  
+    console.log("Received latitude:", latitude);
+    console.log("Received longitude:", longitude);
+
     pool.query('SELECT * FROM schools', (err, results) => {
       if (err) return res.status(500).json({ error: err.message });
   
